@@ -4,11 +4,23 @@
 }
 
 body{
-    padding: 4%;
+    padding: 5%;
     color: white;
+    font-family: Oxanium, sans-serif;
     background-color: rgb(13, 13, 43);
 }
 
+
+
+.flex{
+    display: flex;
+}
+
+header nav div{
+    justify-content: space-between;
+    align-items: center;
+    margin: 8px 2px 10px 2px;
+}
 li{
     list-style-type: none;
 }
@@ -19,4 +31,61 @@ a{
 
 img{
     max-width: 92%;
+}
+
+
+
+.mainheader h3{
+    margin-top: 4vh;
+    margin-bottom: 4vh;
+    max-width: 280px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: .75rem;
+    font-weight: 100;
+    line-height: 1rem;
+    border-radius: 9999px;
+    background-color: rgba(255, 255, 255, 0.209);
+    padding-right: 1rem;
+    color: #ffffff;
+}
+
+.mainheader h3 span#save{
+    background-color: white;
+    color: rgba(13, 13, 43, 0.542);
+    padding-bottom: .25rem;
+    padding-top: .25rem;
+    border-radius: 9999px;
+    padding: 4px 16px;
+    margin: 4px;
+    transition-delay: 0.4s;
+    transition-duration: 2.5s;
+    transition-property: opacity, transform, -webkit-transform;
+    transition-timing-function: ease;
+}
+
+.mainheader h1{
+    padding: 8px 0px;
+    line-height: 40px;
+}
+
+.mainheader p{
+    padding: 8px 0px;
+    line-height: 16px;
+    margin-block-end: 12px;
+    margin-bottom: 12px;
+    font-size: 12px;
+}
+
+@media screen and (min-width:800px) {
+    div.flexdesktop{
+        display: flex;
+        justify-content: space-between;
+    }
+
+    body{
+        padding: inherit 15%;
+    }
+
 }
