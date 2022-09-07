@@ -78,6 +78,14 @@ header nav div{
     font-size: 2em;
 }
 
+
+@media screen and (max-width:800px) {
+    header #img{
+        padding-top: 4vh;
+        padding-bottom: 7vh;
+    }
+}
+
 .mainheader p{
     padding: 8px 0px;
     line-height: 16px;
@@ -112,6 +120,8 @@ header nav div{
 }
 
 
+
+
 .belowheader li{
     display: flex;
     justify-content: space-between;
@@ -129,6 +139,42 @@ header nav div{
     padding: 2%;
 }
 
+
+
+/*---------------------why section-----------------*/
+
+.why h2{
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 40px;
+    margin: 30px 0px ;
+}
+
+.why p{
+    font-size: 16px;
+    color: rgb(156, 163, 175);
+    line-height: 26px;
+    padding-bottom: 3vh;
+}
+
+.why .flexdesktop{
+    flex-direction: row-reverse;
+}
+
+.why a{
+    color: white;
+    background-color: rgb(59, 130, 246);
+    border-radius: 9999px;
+    line-height: 26px;
+    padding: 6px 16px 9px 16px;
+}
+
+.why img{
+    padding-bottom: 70px;
+}
+
+
+/*-------------------------------hash rate----------*/
 
 
 
@@ -166,7 +212,7 @@ header nav div{
 
 @media screen and (min-width:600px) {
     .mainheader{
-        padding: 1% 1%;
+        padding: 1% 10%;
     }
     
 
@@ -185,6 +231,17 @@ header nav div{
         justify-content: space-around;
         align-items: center;
     }
+
+    .why{
+        margin-top: -100px;
+        margin-bottom: 100px;
+    }
+
+    
+    .why img{
+        padding-bottom: 10px;
+    }
+
 
     .belowheader{
         padding-top: 10%;
