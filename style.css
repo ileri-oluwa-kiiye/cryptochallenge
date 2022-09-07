@@ -4,7 +4,7 @@
 }
 
 body{
-    padding: 5%;
+    padding:  1% 5%;
     color: white;
     font-family: Oxanium, sans-serif;
     background-color: rgb(13, 13, 43);
@@ -14,13 +14,10 @@ body{
 
 .flex{
     display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
-header nav div{
-    justify-content: space-between;
-    align-items: center;
-    margin: 8px 2px 10px 2px;
-}
 li{
     list-style-type: none;
 }
@@ -30,11 +27,18 @@ a{
 }
 
 img{
-    max-width: 92%;
+    max-width: 91%;
+}
+
+/*-------------------------------------------------Top navigation----*/
+header nav div{
+    justify-content: space-between!important;
+    align-items: center;
+    margin: 8px 10px 1px 0px;
 }
 
 
-
+/*-------------------------------------------------Header-------------*/
 .mainheader h3{
     margin-top: 4vh;
     margin-bottom: 4vh;
@@ -53,21 +57,25 @@ img{
 
 .mainheader h3 span#save{
     background-color: white;
+    font-size: 1em;
     color: rgba(13, 13, 43, 0.542);
     padding-bottom: .25rem;
     padding-top: .25rem;
     border-radius: 9999px;
     padding: 4px 16px;
     margin: 4px;
-    transition-delay: 0.4s;
-    transition-duration: 2.5s;
-    transition-property: opacity, transform, -webkit-transform;
+
+
+    transition-delay:0.4s ;
     transition-timing-function: ease;
+    transition-duration: 2.5s;
 }
 
 .mainheader h1{
     padding: 8px 0px;
-    line-height: 40px;
+    list-style-type: z;
+    line-height: 1em;
+    font-size: 2em;
 }
 
 .mainheader p{
@@ -77,15 +85,127 @@ img{
     margin-bottom: 12px;
     font-size: 12px;
 }
+.mainheader h4{
+    max-width: 190px;
+}
+
+.mainheader h4 a{
+    background-color: rgb(40, 40, 255);
+    color: white;
+    padding: 5px 5px;
+    border-radius: 9999px;
+}
+
+.mainheader h4 a span{
+    padding-right: 7px;
+    font-weight: 100;
+}
+
+/*----------------------------Below the header*/
+
+.belowheader svg{
+    padding: 25px;
+    background-color: rgb(75, 85, 99);
+    max-width: 80px;
+    max-height: 80px;
+    border-radius: 9999px;
+}
+
+
+.belowheader li{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.belowheader ul span{
+    display: block;
+    color: rgb(229, 231, 235);
+    font-size: .7em;
+    line-height: 16px;
+}
+
+.belowheader li{
+    padding: 2%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (min-width:600px) {
+    .mainheader{
+        padding: 1% 1%;
+    }
+    
+
+    
+    
+    
+}
+
+
+
+
 
 @media screen and (min-width:800px) {
-    div.flexdesktop{
+    .flexdesktop{
         display: flex;
-        justify-content: space-between;
+        justify-content: space-around;
+        align-items: center;
     }
 
-    body{
-        padding: inherit 15%;
+    .belowheader{
+        padding-top: 10%;
+        padding-bottom: 15%;
     }
 
+    header nav div{
+        margin: 20px 0px 2px 50px;
+    }
+    
+    .belowheader svg{
+        padding: 12px;
+    }
+
+    
+
+}
+
+@media screen and (min-width:900px) {
+    .mainheader{
+        padding: 1% 10%;
+    }
+    
 }
