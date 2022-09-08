@@ -4,13 +4,18 @@
 }
 
 body{
-    padding:  1% 5%;
     color: white;
-    font-family: Oxanium, sans-serif;
+    font-family: "Oxanium", sans-serif;
     background-color: rgb(13, 13, 43);
 }
 
+.padding{
+    padding: 1% 5%;
+}
 
+.rowreverse{
+    flex-direction: row-reverse;
+}
 
 .flex{
     display: flex;
@@ -74,8 +79,9 @@ header nav div{
 .mainheader h1{
     padding: 8px 0px;
     list-style-type: z;
-    line-height: 1em;
-    font-size: 2em;
+    line-height: 40px;
+    font-size: 33px;
+    font-weight: 600;
 }
 
 
@@ -128,18 +134,28 @@ header nav div{
     align-items: center;
 }
 
-.belowheader ul span{
-    display: block;
-    color: rgb(229, 231, 235);
-    font-size: .7em;
-    line-height: 16px;
-}
 
 .belowheader li{
     padding: 2%;
 }
 
+.belowheader li div{
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 32px;
+    padding: 0px 3px;
+}
 
+
+
+
+.belowheader ul li div span{
+    display: block;
+    color: rgb(229, 231, 235);
+    font-weight: 100;
+    font-size: 13px;
+    line-height: 16px;
+}
 
 /*---------------------why section-----------------*/
 
@@ -174,17 +190,166 @@ header nav div{
 }
 
 
-/*-------------------------------hash rate----------*/
+
+
+/*-------------------------------earn with us----------*/
+.earnwithus{
+    text-align: center;
+}
+
+.earnwithus h2{
+    font-weight: 600;
+    line-height: 32px;
+    font-size: 24px;
+    margin-bottom: 20px;
+
+}
+
+.earnwithus p{
+    font-size: 12px;
+    color: rgb(156, 163, 175);
+    line-height: 16px;
+    padding-bottom: 10px;
+}
+
+
+
+
+
+/*----------------------------------Calculate_-----------------*/
+
+.calculate{
+    margin: auto;
+    background-color: white;
+    color: black;
+    border-radius: 16px;
+    padding: 24px;
+    z-index: 5;
+}
+
+.calculate .flex{
+    flex-direction: column;
+}
+
+.calculate input{
+    border: none;
+    border-bottom: 1px solid rgb(224, 224, 224);
+    width: 89%;
+    padding: 04px 0px;
+    line-height: 28px;
+    font-size: 20px;
+    cursor: text;
+    color: rgb(13, 13, 43);
+}
+
+.calculate input:focus{
+    border: none ;
+}
+
+.calculate ::placeholder{
+    color: rgb(13, 13, 43);
+    font-family: "Oxanium", sans-serif;
+}
+.calculate select{
+    width: 89%;
+    border: none;
+    border-bottom: 1px solid rgb(224, 224, 224);
+    color: rgb(13, 13, 43);
+    line-height: 28px;
+    cursor: pointer;
+    font-size: 20px;
+    margin-top: 40px;
+}
+
+.calculate button{
+    background-color: rgb(54, 113, 233);
+    color: white;
+    margin-top: 48px;
+    margin-bottom: 40px;
+    border-radius: 9999px;
+    border: none;
+    align-items: center;
+    line-height: 28px;
+    text-align: center;
+    padding: 8px 32px;
+    font-size: 18px;
+    font-family: "Oxanium", sans-serif;
+    align-self: flex-start;
+}
+
+.calculate p.blue{
+    color: rgb(54, 113, 233)!important;
+    font-size: 16px;
+    line-height: 28px;
+    margin-bottom: 16px;
+}
+
+.calculate span.blue{
+    color: rgb(54, 113, 233)!important;
+    display: block;
+}
+
+.calculate h2{
+    font-size: 32px;
+    margin-bottom: 12px;
+    line-height: 52px;
+    font-weight: 700;
+}
+
+.calculate #revenue{
+    font-size: 16px;
+    line-height: 26px;
+    color: rgb(107, 114, 128);
+}
 
 
 
 
 
 
+/*--------------------------------------------Trade-------------*/
+
+
+.trade{
+    background-color: rgb(255,251,255,0.96);
+    opacity: 1;
+    margin-top:-128px ;
+    color: black;
+    padding-top: 150px;
+}
 
 
 
 
+
+/*-------------------------------portfolio-----------*/
+
+.portfolio a{
+    color: white;
+    background-color: rgb(59, 130, 246);
+    border-radius: 9999px;
+    line-height: 26px;
+    padding: 6px 16px 9px 16px;
+    
+}
+
+.portfolio .flexdesktop h3{
+    font-weight: 600;
+    line-height: 32px;
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.portfolio .flexdesktop p{
+    font-size: 12px;
+    color: rgb(156, 163, 175);
+    line-height: 16px;
+    padding-bottom: 20px;
+}
+
+.portfolio .flexdesktop{
+    margin: 5% 0px;
+}
 
 
 
@@ -242,6 +407,15 @@ header nav div{
         padding-bottom: 10px;
     }
 
+    .calculate span.blue{
+        display: inline;
+        padding-left:10px ;
+    }
+    .mainheader h1{
+        line-height: 48px;
+        font-size: 40px;
+        width: 150%;
+    }
 
     .belowheader{
         padding-top: 10%;
@@ -255,7 +429,17 @@ header nav div{
     .belowheader svg{
         padding: 12px;
     }
+    .calculate .flex{
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+    }
 
+    .calculate select{
+        margin: 11px 3vw;
+        width: 30%;
+        margin-bottom: 0px;
+    }
     
 
 }
