@@ -307,19 +307,6 @@ header nav div{
 
 
 
-/*--------------------------------------------Trade-------------*/
-
-
-.trade{
-    background-color: rgb(255,251,255,0.96);
-    opacity: 1;
-    margin-top:-128px ;
-    color: black;
-    padding-top: 150px;
-}
-
-
-
 
 
 /*-------------------------------portfolio-----------*/
@@ -429,6 +416,7 @@ header nav div{
 /*-----------------------------------------The footer----*/
 footer{
     text-align: center;
+    margin: 12% 5% 1% 5%;
 }
 
 
@@ -457,18 +445,53 @@ footer .flexdesktop > div h4{
 
 footer .flexdesktop .flex{
     justify-content: space-between;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
     width: 300px;
 }
 
-footer .flexdesktop > div.flex ing{
-    margin-right: 13px;
-    display: block;
+footer .footer{
+    line-height: 26px ;
+    font-weight: 500;
+    font-size: 16px;
 }
 
 
+footer.footer {
+    color: white;
+    background-color: inherit;
+    justify-content: space-between;
+}
+
+footer .footer img{
+    width: 25px;
+    height: 25px;
+    padding: 10px;
+    color: white;
+    background-color: inherit;
+}
 
 
+/*--------------------------------------------Trade-------------*/
 
+
+.trade{
+    background-color: rgb(255,251,255,0.96);
+    opacity: 1;
+    margin-top:-128px ;
+    color: black;
+    padding-top: 150px;
+    text-align: center;
+}
+
+.trade h3{
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 32px;
+    margin-bottom: 44px;
+    padding: 0px 4%;
+}
 
 
 
@@ -514,6 +537,15 @@ footer .flexdesktop > div.flex ing{
         display: flex;
         justify-content: space-around;
         align-items: center;
+        margin-bottom: 5%;
+    }
+
+    .trade li{
+        padding: 0px 32px;
+    }
+
+    footer .flexdesktop{
+        align-items: flex-start;
     }
 
     .why{
@@ -547,6 +579,11 @@ footer .flexdesktop > div.flex ing{
 
     header nav div{
         margin: 20px 0px 2px 50px;
+    }
+
+    footer #resources, #quick{
+        width: 120px;
+        text-align: left;
     }
     
     .belowheader svg{
