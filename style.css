@@ -118,10 +118,8 @@ header nav div{
 /*----------------------------Below the header*/
 
 .belowheader svg{
-    padding: 25px;
+    padding: 15px;
     background-color: rgb(75, 85, 99);
-    max-width: 80px;
-    max-height: 80px;
     border-radius: 9999px;
 }
 
@@ -130,14 +128,12 @@ header nav div{
 
 .belowheader li{
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
 }
 
 
-.belowheader li{
-    padding: 2%;
-}
+
 
 .belowheader li div{
     font-size: 24px;
@@ -481,7 +477,8 @@ footer .footer img{
     opacity: 1;
     margin-top:-128px ;
     color: black;
-    padding-top: 150px;
+    padding: 3%;
+    padding-top: 170px;
     text-align: center;
 }
 
@@ -493,7 +490,28 @@ footer .footer img{
     padding: 0px 4%;
 }
 
+.trade li{
+    background-color: white;
+    height: 448px;
+    border-radius: 16px;
+    margin: 20px 0px;
+}
 
+.trade li> img{
+    padding: 48px;
+}
+
+.trade li h2{
+    line-height: 52px;
+    font-size: 32px;
+    font-weight: 2em;
+}
+
+.trade li h2 sup{
+    color:rgb(156, 163, 175);
+    font-size: 18px;
+    font-weight: 500;
+}
 
 
 
