@@ -13,6 +13,11 @@ body{
     padding: 1% 5%;
 }
 
+
+div.hiddenmobile{
+    display: none;
+}
+
 .rowreverse{
     flex-direction: row-reverse;
 }
@@ -513,6 +518,12 @@ footer .footer img{
     font-weight: 500;
 }
 
+.trade li p{
+    margin-top: 24px;
+    margin-bottom: 24px;
+    line-height: 26px;
+    font-size: 17px;
+}
 
 
 
@@ -560,6 +571,7 @@ footer .footer img{
 
     .trade li{
         padding: 0px 32px;
+        margin: 20px;
     }
 
     footer .flexdesktop{
@@ -617,8 +629,20 @@ footer .footer img{
         margin: 11px 3vw;
         width: 30%;
         margin-bottom: 0px;
+
     }
     
+    .hiddendesktop{
+        display: none;
+    }
+
+    .hiddenmobile{
+        display: block;
+    }
+
+    div.hiddenmobileonclick{
+        display: block;
+    }
 
 }
 
