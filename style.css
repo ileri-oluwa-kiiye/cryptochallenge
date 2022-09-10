@@ -590,7 +590,7 @@ footer .footer img{
 
 
 
-@media screen and (min-width:860px) {
+@media screen and (min-width:1000px) {
     .flexdesktop{
         display: flex;
         justify-content: space-around;
