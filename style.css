@@ -530,9 +530,14 @@ footer .footer img{
     background-color: white;
     height: 448px;
     border-radius: 16px;
-    margin: 20px 0px;
+    margin: 50px 0px;
 }
 
+@media screen and (min-width:1000) {
+    .trade li{
+        margin: 20px 0px;
+    }
+}
 .trade li> img{
     padding: 48px;
 }
