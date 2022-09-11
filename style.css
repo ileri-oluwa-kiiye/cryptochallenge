@@ -542,6 +542,12 @@ footer .footer img{
     padding: 48px;
 }
 
+.trade ul li div img{
+    border-radius: 9999px;
+    width: 4em;
+    height: auto;
+    border:1px rgb(156, 163, 175) solid ;
+}
 .trade li h2{
     line-height: 52px;
     font-size: 32px;
