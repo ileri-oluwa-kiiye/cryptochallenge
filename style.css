@@ -112,10 +112,14 @@ header nav div{
 }
 
 
-@media screen and (max-width:800px) {
+@media screen and (max-width:1000px) and (min-width:600px) {
     header #img{
         padding-top: 4vh;
         padding-bottom: 7vh;
+        max-width: 80%;
+        padding-left: 10%;
+        padding-right: 10%;
+        padding-bottom: 10%;
     }
 }
 
@@ -266,7 +270,7 @@ header nav div{
     color: rgb(13, 13, 43);
 }
 
-.calculate input:focus, select:focus{
+input:focus, select:focus{
     outline: none ;
 }
 
