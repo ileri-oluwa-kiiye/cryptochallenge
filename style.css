@@ -620,6 +620,10 @@ footer .footer img{
         margin-bottom: 5%;
     }
 
+    main{
+        margin: 10% 0%;
+    }
+
     div .hiddenmobile{
         display: block;
     }
