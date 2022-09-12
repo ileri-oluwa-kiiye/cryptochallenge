@@ -74,10 +74,9 @@ header nav div{
 
 
 .mainheader{
-    
     animation-name: animateup;
     animation-timing-function: ease;
-    animation-duration: 2s;
+    animation-duration: 4s;
 }
 .mainheader h3{
     margin-top: 4vh;
