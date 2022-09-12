@@ -71,6 +71,14 @@ header nav div{
 
 
 /*-------------------------------------------------Header-------------*/
+
+
+.mainheader{
+    
+    animation-name: animateup;
+    animation-timing-function: ease;
+    animation-duration: 2s;
+}
 .mainheader h3{
     margin-top: 4vh;
     margin-bottom: 4vh;
@@ -97,10 +105,6 @@ header nav div{
     padding: 4px 16px;
     margin: 4px;
 
-
-    transition-delay:0.4s ;
-    transition-timing-function: ease;
-    transition-duration: 2.5s;
 }
 
 .mainheader h1{
@@ -162,11 +166,9 @@ header nav div{
     padding: 12px 0px;
     margin-left: auto;
     margin-right: auto;
-
-    transition: width 2s;
-    transition-delay:0.4s ;
-    transition-timing-function: ease;
-    transition-duration: 2.5s;
+    animation-name: animateup;
+    animation-timing-function: ease;
+    animation-duration: 2s;
 }
 
 
@@ -578,6 +580,25 @@ footer .footer img{
 
 
 
+@keyframes animateup{
+    from {margin-top: 100px;}
+    to {margin-top: initial;}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -618,6 +639,7 @@ footer .footer img{
         justify-content: space-around;
         align-items: center;
         margin-bottom: 5%;
+        animation-name: none;
     }
 
     main{
