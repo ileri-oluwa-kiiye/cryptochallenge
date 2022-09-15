@@ -509,6 +509,20 @@ footer .footer img{
     background-color: inherit;
 }
 
+@media screen and (min-width:1000px) {
+    footer .footer div{
+        position: absolute;
+        right: 5%;
+        padding: 6px;
+    }
+
+    footer .footer p{
+        position: absolute;
+        left: 5%;
+        padding: 6px;
+    }
+}
+
 
 /*--------------------------------------------Trade-------------*/
 
