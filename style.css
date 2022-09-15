@@ -501,19 +501,18 @@ footer.footer {
     justify-content: space-between;
 }
 
+
 footer .footer img{
-    width: 25px;
-    height: 25px;
     padding: 10px;
-    color: white;
-    background-color: inherit;
 }
+
 
 @media screen and (min-width:1000px) {
     footer .footer div{
         position: absolute;
         right: 5%;
         padding: 6px;
+        padding-bottom: 3%;
     }
 
     footer .footer p{
