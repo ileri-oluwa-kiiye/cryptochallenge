@@ -165,9 +165,6 @@ header nav div{
     padding: 12px 0px;
     margin-left: auto;
     margin-right: auto;
-    animation-name: animateup;
-    animation-timing-function: ease;
-    animation-duration: 2s;
 }
 
 
@@ -579,10 +576,6 @@ footer .footer img{
 
 
 
-@keyframes animateup{
-    from {margin-top: 100px;}
-    to {margin-top: initial;}
-}
 
 
 
