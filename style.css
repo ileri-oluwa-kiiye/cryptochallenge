@@ -596,8 +596,11 @@ footer .footer img{
 
 
 li.tradetoggle{
-    background-color: rgb(13, 13, 43);
+    background-color: rgb(43, 7, 110);
     color: white;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 26px;
 }
 
 li.tradetoggle span.hidden{
