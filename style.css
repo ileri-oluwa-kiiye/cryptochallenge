@@ -68,6 +68,13 @@ header nav div{
     align-items: center;
     margin: 8px 10px 1px 0px;
 }
+nav.inline ul.flex span.desktoponly{
+    border-radius: 9999px;
+    background-color: rgb(40, 40, 255);
+    padding: 9px 16px;
+}
+
+
 
 
 /*-------------------------------------------------Header-------------*/
@@ -588,9 +595,26 @@ footer .footer img{
 }
 
 
+li.tradetoggle{
+    background-color: rgb(13, 13, 43);
+    color: white;
+}
 
+li.tradetoggle span.hidden{
+    display: inline;
+    background-color: rgb(54, 113, 233);
+    border-radius: 9999px;
+    padding: 15px 30px;
+    margin-top: 20px;
+}
 
+li.tradenormal span.hidden{
+    display: none;
+}
 
+li.tradetoggle img.thisone{
+    display: none;
+}
 
 
 
