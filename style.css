@@ -18,6 +18,15 @@ div.hiddenmobile{
     display: none;
 }
 
+nav li{
+    cursor: pointer;
+    transition: 0.7s ease all;
+}
+
+nav li:hover{
+    border-bottom: 1px solid white;
+}
+
 div.hiddenmobileonclick{
     display: none;
 }
